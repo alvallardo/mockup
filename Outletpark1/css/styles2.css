@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contenedor de contenido</title>
+</head>
+<body>
+    <div class="contenedor">
+        <!-- Aquí va tu contenido -->
+        <div class="categorias">
+            <h2>Tienda</h2>
+            <div class="categoria">
+                <h3>Mujer</h3>
+                <img src="https://img.freepik.com/foto-gratis/retrato-mujer-casual-sonriente_171337-4168.jpg" alt="Mujer">
+            </div>
+            <div class="categoria">
+                <h3>Hombre</h3>
+                <img src="https://img.freepik.com/foto-gratis/retrato-interior-joven-posando_176420-29964.jpg?size=626&ext=jpg&ga=GA1.2.2018234782.1713042839&semt=ais" alt="Hombre">
+            </div>
+            <div class="categoria">
+                <h3>Infantil</h3>
+                <img src="https://img.freepik.com/foto-gratis/nina-sonriente-jugando-pelota-playa_23-2147648862.jpg?t=st=1713043247~exp=1713046847~hmac=39746fddd8a30d98cec99233cf360946758d2ea246c2bff7051e5ad591ce64d2&w=826" alt="Infantil">
+            </div>
+            <div class="categoria">
+                <h3>Hogar</h3>
+                <img src="https://img.freepik.com/foto-gratis/plantas-interior-estudio_23-2151022097.jpg?t=st=1713043297~exp=1713046897~hmac=f759925b3ca607ea9ba572dd7934c3aa2c1773e2ba732f02744e62b397e8adb5&w=826" alt="Hogar">
+            </div>
+            <div class="categoria">
+            <h3>Hogar</h3>
+            <img src="https://img.freepik.com/foto-gratis/plantas-interior-estudio_23-2151022097.jpg?t=st=1713043297~exp=1713046897~hmac=f759925b3ca607ea9ba572dd7934c3aa2c1773e2ba732f02744e62b397e8adb5&w=826" alt="Hogar">
+        </div>
+        <div class="categoria">
+                <h3>Hogar</h3>
+                <img src="https://img.freepik.com/foto-gratis/plantas-interior-estudio_23-2151022097.jpg?t=st=1713043297~exp=1713046897~hmac=f759925b3ca607ea9ba572dd7934c3aa2c1773e2ba732f02744e62b397e8adb5&w=826" alt="Hogar">
+            </div>
+
+
+
+
+        </div>
+    </div>
+</body>
+</html>

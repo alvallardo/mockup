@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tienda Panorama - Ubicación</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background-color: #e6e6fa; /* Morado claro */
+            text-align: center;
+        }
+
+        header {
+            background-color: #808080; /* Púrpura */
+            color: #fff;
+            padding: 20px;
+        }
+
+        h1 {
+            margin-top: 0;
+        }
+
+        .horario {
+            margin-top: 20px;
+            background-color: #fff; /* Blanco */
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            display: inline-block;
+        }
+
+        .categorias {
+            margin-top: 20px;
+        }
+
+        .categoria {
+            display: inline-block;
+            margin: 10px;
+        }
+
+        .categoria img {
+            width: 150px; /* Ajusta el tamaño de la imagen según lo necesites */
+            height: auto;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .panoramas {
+            margin-top: 20px;
+            background-color: #f0f0f0; /* Gris claro */
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .linea {
+            margin-top: 20px;
+            display: flex;
+            justify-content: center; /* Centra los elementos horizontalmente */
+        }
+
+        .panorama {
+            margin: 0 10px; /* Espacio entre los panoramas */
+        }
+
+        .ubicacion,
+        .direccion {
+            margin-top: 20px;
+            background-color: #e6e6fa; /* Morado claro */
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Tienda Panorama</h1>
+        <nav>
+            <a href="#">Tienda</a> - 
+            <a href="#">Panorama</a> - 
+            <a href="#">Ubicación</a>
+        </nav>
+    </header>
+
+    <div class="horario">
+        <h2>Recuerda nuestro horario</h2>
+        <p>Lunes a Domingo</p>
+        <p>De 11:00 a 21:00</p>
+    </div>
+
+    <div class="categorias">
+        <h2>Tienda</h2>
+        <div class="categoria">
+            <h3>Mujer</h3>
+            <img src="https://img.freepik.com/foto-gratis/retrato-mujer-casual-sonriente_171337-4168.jpg" alt="Mujer">
+        </div>
+        <div class="categoria">
+            <h3>Hombre</h3>
+            <img src="https://img.freepik.com/foto-gratis/retrato-interior-joven-posando_176420-29964.jpg?size=626&ext=jpg&ga=GA1.2.2018234782.1713042839&semt=ais" alt="Hombre">
+        </div>
+        <div class="categoria">
+            <h3>Infantil</h3>
+            <img src="https://img.freepik.com/foto-gratis/nina-sonriente-jugando-pelota-playa_23-2147648862.jpg?t=st=1713043247~exp=1713046847~hmac=39746fddd8a30d98cec99233cf360946758d2ea246c2bff7051e5ad591ce64d2&w=826" alt="Infantil">
+        </div>
+        <div class="categoria">
+            <h3>Hogar</h3>
+            <img src="https://img.freepik.com/foto-gratis/plantas-interior-estudio_23-2151022097.jpg?t=st=1713043297~exp=1713046897~hmac=f759925b3ca607ea9ba572dd7934c3aa2c1773e2ba732f02744e62b397e8adb5&w=826" alt="Hogar">
+        </div>
+        </div>
+    </div>
+    <link rel="stylesheet" href="css/my-slider.css"/>
+<script src="js/ism-2.2.min.js"></script>
+
+</head>
+<body>
+<div class='container'>
+
+<div class="ism-slider" id="my-slider">
+  <ol>
+    <li>
+      <img src="image/slides/flower-729514_1280.jpg">
+      
+    </li>
+    <li>
+      <img src="image/slides/beautiful-701678_1280.jpg">
+     
+    </li>
+    <li>
+      <img src="image/slides/summer-192179_1280.jpg">
+      
+    </li>
+  </ol>
+</div>
+
+    <!DOCTYPE html>
+    <html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Panoramas con imágenes del mismo tamaño</title>
+        <style>
+            .panorama img {
+                max-width: 50%;
+                height: auto;
+                /* establecer un tamaño específico, puedes utilizar width y height */
+                /* width: 200px; */
+                /* height: 150px; */
+
+                / Para asegurarte de que todas las imágenes dentro de tus panoramas tengan el mismo tamaño, puedes aplicar CSS a la clase .panorama que contiene las imágenes.//
+            }
+        </style>
+    </head>
+    <body>
+        <div class="panoramas">
+            <h2>Panoramas</h2>
+            <div class="linea">
+                <div class="panorama">
+                    <h3>Patio de Comidas</h3>
+                    <img src="https://img.freepik.com/vector-gratis/fondo-pizarra-hamburguesa_23-2148907814.jpg?t=st=1713114654~exp=1713118254~hmac=4e90479de08f7105b9d943d6f72a07deea78d15e68099854c7ad43df1ffa0fac&w=826" alt="Hogar">
+                    <p>¡Disfruta de nuestra variedad gastronómica!</p>
+                </div>
+                <div class="panorama">
+                    <h3>Show Infantil</h3>
+                    <img src="https://img.freepik.com/vector-gratis/pagina-inicio-espectaculo-circo-vertical-mano_23-2149903713.jpg?t=st=1713115214~exp=1713118814~hmac=e3332a97b44e5f49f2d9a20274fa6ddc92740edabb5b67ceac5a8ee8582d6cb5&w=826" alt="Hogar">
+                    <p>¡Diviértete con nuestras presentaciones para niños!</p>
+                </div>
+                <div class="panorama">
+                    <h3>Feria de Emprendedores</h3>
+                    <img src="https://img.freepik.com/vector-gratis/concepto-ilustrado-mercado-pulgas-dibujado-mano_23-2148832736.jpg?t=st=1713115873~exp=1713119473~hmac=efa80e4456c39ee7ee3247a00bcd92858a1f96a99dd59d869f9612b1a6a949d6&w=826" alt="Hogar">
+
+                    <p>¡Descubre los productos de emprendedores locales!</p>
+                </div>
+            </div>
+            <div class="linea">
+                <div class="panorama">
+                    <h3>Discovery Land</h3>
+                    <img src="data:image/png;base64,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" alt="Hogar">
+
+                    <p>¡Explora el mundo en nuestra zona de entretenimiento!</p>
+                </div>
+                <div class="panorama">
+                    <h3>Rum Cars</h3>
+                    <img src="https://patiooutlettemuco.cl/wp-content/uploads/2021/09/JPG_Rum.jpg" alt="Hogar">
+
+                    <p>¡Ven y conoce nuestra exposición de autos clásicos!</p>
+                </div>
+                <div class="panorama">
+                    <h3>Pronto Más Panoramas</h3>
+                    <img src="https://miguelcerrocreacion.com/wp-content/uploads/2015/02/16.jpg" alt="Hogar">
+
+                    <p>¡Estamos trabajando en nuevas actividades para ti!</p>
+                </div>
+            </div>
+        </div>
+    </body>
+    </html>
+    
+        </div>
+    </div>
+
+    <!DOCTYPE html>
+    <html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Panoramas con imágenes del mismo tamaño</title>
+        <style>
+            .panorama img {
+                max-width: 40%;
+                height: auto;          
+        
+            }
+        </style>
+    </head>
+    <body>
+       
+                </div>
+                <!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Como llegar</title>
+    <style>
+        .linea {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .Como_llegar {
+            text-align: left;
+        }
+
+        .panorama {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="Como_llegar">
+        <h2>Como llegar</h2>
+        <div class="linea">
+            <div class="Como_llegar">
+                <h3>Desde Valparaiso</h3>
+                <img src="https://www.shutterstock.com/image-vector/map-pointer-icon-gps-location-260nw-1640250154.jpg" alt="Hogar">
+            </div>
+            <div class="panorama">
+                <h3>Desde Viña</h3>
+                <img src="https://www.shutterstock.com/image-vector/map-pointer-icon-gps-location-260nw-1640250154.jpg" alt="Hogar">
+            </div>
+            <div class="panorama">
+                <h3>Desde Con Con</h3>
+                <img src="https://www.shutterstock.com/image-vector/map-pointer-icon-gps-location-260nw-1640250154.jpg" alt="Hogar">
+            </div>
+        </div>
+        <div class="linea">
+            <div class="panorama">
+                <h3>Desde Villa Alemana</h3>
+                <img src="https://www.shutterstock.com/image-vector/map-pointer-icon-gps-location-260nw-1640250154.jpg" alt="Hogar">
+            </div>
+        </div>
+ 
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dirección</title>
+    <style>
+        .direccion {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="direccion">
+        <h2>Dirección</h2>
+        <img src="" alt="Dirección de la tienda">
+        <p>Horario: Lunes a Domingo, 11:00 - 21:00</p>
+        <p>Contacto: 123-456-789 | info@tiendapanorama.com</p>
+    </div>
+
+    <div class="rating">
+        <input type="radio" id="star5" name="rate" value="5" />
+        <label for="star5" title="text"></label>
+        <input type="radio" id="star4" name="rate" value="4" />
+        <label for="star4" title="text"></label>
+        <input type="radio" id="star3" name="rate" value="3" />
+        <label for="star3" title="text"></label>
+        <input type="radio" id="star2" name="rate" value="2" />
+        <label for="star2" title="text"></label>
+        <input checked="" type="radio" id="star1" name="rate" value="1" />
+        <label for="star1" title="text"></label>
+      </div>
+
+      
+      
+</body>
+</html>
+
+</div>
+
+</body>
+</html>
